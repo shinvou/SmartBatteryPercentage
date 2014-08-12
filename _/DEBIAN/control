@@ -1,0 +1,9 @@
+Package: com.shinvou.SmartBatteryPercentage
+Name: SmartBatteryPercentage
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Show battery percentage only when it’s 20% or below.
+Author: Timm Kandziora
+Section: Tweaks
+Version: 1.0-1
+Installed-Size: 88
