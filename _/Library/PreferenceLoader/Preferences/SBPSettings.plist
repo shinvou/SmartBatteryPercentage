@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = SBPSettings;
+		cell = PSLinkCell;
+		detail = "SBPSettingsListController";
+		icon = "SBPSettings@2x.png";
+		isController = 1;
+		label = "SmartBatteryPercentage";
+	};
+}

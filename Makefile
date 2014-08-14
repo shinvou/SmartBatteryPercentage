@@ -15,6 +15,9 @@ SmartBatteryPercentage_FRAMEWORKS = UIKit
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
+SUBPROJECTS += SBPSettings
+include $(THEOS_MAKE_PATH)/aggregate.mk
+
 before-stage::
 	find . -name ".DS_Store" -delete
 after-install::
