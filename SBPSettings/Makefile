@@ -1,4 +1,5 @@
 ARCHS = armv7 armv7s arm64
+
 include theos/makefiles/common.mk
 
 BUNDLE_NAME = SBPSettings
@@ -6,6 +7,7 @@ SBPSettings_FILES = SBPSettings.mm
 SBPSettings_INSTALL_PATH = /Library/PreferenceBundles
 SBPSettings_FRAMEWORKS = UIKit
 SBPSettings_PRIVATE_FRAMEWORKS = Preferences
+SBPSettings_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

@@ -5,7 +5,7 @@
 SmartBatteryPercentage is a jailbreak extension for iOS with the smart use of only showing battery percentage when it’s needed (when it's 20% or below).
 
 ### How do I SmartBatteryPercentage?
-Just install the tweak. No options to configure.
+Just install the tweak. In the settings you can choose to show percentage always while device is charging or you can set a custom percentage for when the battery percentage should be shown on the statusbar.
 
 ### How do I get?
 Compile it for yourself or use the .deb included.
