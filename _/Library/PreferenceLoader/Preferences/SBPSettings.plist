@@ -3,7 +3,7 @@
 		bundle = SBPSettings;
 		cell = PSLinkCell;
 		detail = "SBPSettingsListController";
-		icon = "SBPSettings@2x.png";
+		icon = "SBPSettings.png";
 		isController = 1;
 		label = "SmartBatteryPercentage";
 	};
